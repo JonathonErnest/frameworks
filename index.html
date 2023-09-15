@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        :root{
+            --bs-body-color-rgb
+        }
+
+        .card-body {
+            background-color: rgb(var(--bs-body-color-rgb));
+            color: #fff;
+        }
+
+        h1 {
+            display: flex;
+            justify-content: center;
+        }
+
+        h5 {
+            text-align: center;
+            margin: 25px auto;
+        }
+
+        body main {
+            margin: auto 100px;
+        }
+
+        body {
+            background-color: antiquewhite;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar sticky-top bg-body-tertiary" data-bs-theme="dark">>
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" id="home">Resource Navigation</a>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#git-github">Git Version Control & GitHub</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#flex-box-section">Flex Box</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#harvard-cs50-section">Harvard CS50 Full Course</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#frame-works">Frameworks to Learn</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#keyboard-shortcuts-section">Keyboard Shortcuts</a></li>
+                        
+                    </ul> 
+
+            </div>
+    </nav>
+
+    <main>
+
+            <div id="git-github">
+                <h1 >Git Version Control & GitHub</h1>
+                <div class="container-sm" 100% wide until small breakpoint>
+                    <iframe class="rounded mx-auto d-block" id="git-github" width="630" height="315" src="https://www.youtube.com/embed/mJ-qvsxPHpY?si=i-JSVwg39m1VgCZX"></iframe>
+                </div>
+                
+                <h5 class="container-sm" 100% wide until small breakpoint>Please watch this video to better understand how to navigate Git, as well as set up your GitHub to receive initiated repositories. Below I will list some of the key commands discussed in this video. 
+
+                </h5>
+            </div>
+
+                
+            <div>
+
+            <div class="card text-center">
+                <div class="card-header">
+                    Git Commands
+
+                </div>
+                <div class="card-body" >
+                    <ul style="list-style: none;">
+                        <li>touch ( creates a new file)</li>
+                        <li>mkdir (makes a new directory/folder)</li>
+                        <li>rm (removes directory or file)</li>
+                        <li>ls ( list the files in a directory)</li>
+                        <li>git init</li>
+                        <li>git remote add origin [ insert github repo link]</li>
+                        <li>git add .</li>
+                        <li>git commit -m "your message"</li>
+                        <li>git push -u origin main</li>
+                        <li>git branch -b [new branch name]</li>
+                        <li>git checkout [branch name]</li>
+                        <li>git log ( shows the log of all saved changes in the working branch )</li>
+                </ul>
+                <div >
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Back to Top</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#flex-box-section">Next Section</a></li>
+                    </ul>
+                </div>
+
+                </div>
+
+            </div>
+
+            </div>
+        </section> <!-- end of git and github section-->
+
+        <section >
+            <div id="flex-box-section">
+                <h1 >Flex-Box</h1>
+                <div class="container-sm" 100% wide until small breakpoint>
+                    <iframe class="rounded mx-auto d-block" id="git-github" width="630" height="315" src="https://youtube.com/embed/K74l26pE4YA"></iframe>
+                </div>
+                
+                <h5 class="container-sm" 100% wide until small breakpoint>Watch this video to learn all about how FlexBox affects our webpages layout. Below i will list some other CSS. 
+
+                </h5>
+            </div>           
+            
+            <div class="card text-center">
+                <div class="card-header">
+                    Flex-Box
+                </div>
+                <div class="card-body">
+                    <ul style="list-style: none;">
+                        <li><h4>To position the items from left to right, we use a property called justify-content</h4>
+                        </li>
+                        <li>touch ( creates a new file)</li>
+                        <li>mkdir (makes a new directory/folder)</li>
+                        <li>rm (removes directory or file)</li>
+                        <li>ls ( list the files in a directory)</li>
+                        <li>git init</li>
+    
+                </ul>
+                </div>
+
+            </div>
+        </section> <!--end of flexbox section-->
+
+
+
+        <section >
+            <div id="harvard-cs50-section">
+                <h1 >Harvard CS50 Full-Course</h1>
+                <div class="container-sm" 100% wide until small breakpoint>
+                    <iframe class="rounded mx-auto d-block" id="git-github" width="630" height="315" src="https://youtube.com/embed/8mAITcNt710"></iframe>
+                </div>
+                
+                <h5 class="container-sm" 100% wide until small breakpoint> Watch this video in pieces over a series of days in order to grasp the fundamentals of computer science and web development techniques
+
+                </h5>
+            </div>           
+            
+            <div class="card text-center">
+                <div class="card-header">
+                    Flex-Box
+                </div>
+                <div class="card-body">
+                    <ul style="list-style: none;">
+                        <li><h4>To position the items from left to right, we use a property called justify-content</h4>
+                        </li>
+                        <li>touch ( creates a new file)</li>
+                        <li>mkdir (makes a new directory/folder)</li>
+                        <li>rm (removes directory or file)</li>
+                        <li>ls ( list the files in a directory)</li>
+                        <li>git init</li>
+    
+                </ul>
+                </div>
+
+            </div>
+        </section> <!--end of harvard cs50 section-->
+
+
+
+    </main>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>
